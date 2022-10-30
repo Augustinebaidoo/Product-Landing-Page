@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:  lightblue;
+	line-height: 1.5;
+	font-family: sans-serif;
+	color: darkblue;
+}
+
+#page-div{
+	position: relative;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+	position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px 50px;
+	background-color: white;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li{
+	list-style: none;
+	margin-left: 10px;
+
+}
+.main{
+  margin-top: 130px;
+	text-align: center;
+}
+
+section{
+	max-width: 1000px;
+  	width: 60%;
+ 	margin: 0 auto;
+}
+
+#home input[type='email']{
+  	max-width: 700px;
+  	width: 100%;
+  	padding: 5px;
+  	border: 2px solid darkblue;
+  	border-radius: 5px;
+}
+
+#home input[type='submit']{
+	max-width: 90px;
+	height: 30px;
+  	width: 100%;
+  	margin-left: 10px;
+  }
+
+.grid{
+  display: flex;
+}
+
+.btn{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 5px;
+	height: 25px;
+	border-radius: 15px;
+	cursor: pointer;
+	border: 2px solid darkblue;
+  	color: darkblue;
+}
+.btn:hover{
+  background-color: darkblue;
+  color: white;
+  transition: background-color 1s;
+}
+
+h1{
+	font-weight: 500px;
+	font-size: 50px;
+	color: darkblue;
+	border: 5px solid darkblue;
+	background-color: white;
+}
+
+h2{
+	border: 1px solid darkblue;
+}
+
+footer{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer ul{
+  display: flex;
+ 	padding-right: 10px 0px 10px 30px;
+
+}
+
+ footer ul li{
+ 	list-style: none;
+ 	 padding: 10px;
+ }
+
+footer span{
+  display: flex;
+  padding: 10px 30px 10px 0px;
+}
+div img{/*
+	width: 100%;
+  height: 100%;*/
+	border: 1px solid darkblue;
+}
+iframe {/*
+	width: 100%;
+  height: 100%;*/
+	border: 1px solid darkblue;
+}
+a {
+  text-decoration: none;
+  }
+
+  @media screen and (min-width: 1141px){
+	 body{
+	 	width:  90%;
+	 }
+}
+
+@media screen and (min-width: 540px){
+	body{
+		width: 100%;
+	}
+}
